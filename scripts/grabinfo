@@ -1,0 +1,3 @@
+#!/bin/bash
+#
+# Grab dmidecode information from the host.
