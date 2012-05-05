@@ -3,7 +3,7 @@
 	$dbhost = 'localhost';
 	$dbname = 'entdex';
 	
-	$dbuser = '';
+	$dbuser = 'root';
 	$dbpass = '';
 
 	mysql_connect($dbhost,$dbuser,$dbpass) or die(mysql_error());
