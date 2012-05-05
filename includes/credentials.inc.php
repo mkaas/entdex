@@ -1,6 +1,6 @@
 <?php
 
-	$remote_user = '';
+	$remote_user = 'entdex';
 	$remote_pass = '';
 
 ?>
