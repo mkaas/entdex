@@ -1,3 +1,4 @@
-#!/bin/bash
-#
-# Grab dmidecode information from the host.
+!#/bin/bash
+
+CPUSPEED=`sudo dmidecode -t 4 | grep "Max Speed" | head -1 | cut -d ':' -f 2`
+echo $CPUSPEED
