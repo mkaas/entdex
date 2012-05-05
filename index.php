@@ -6,9 +6,11 @@
 	htmlHeader();
 	htmlBanner();
 	htmlMenu();
+	htmlContentStart();
 	
 	runGrabInfo('localhost');
 	
+	htmlContentStop();
 	htmlFooter();
 
 ?>
